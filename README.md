@@ -1,5 +1,5 @@
-
 **Solidity Smart Contract with MetaMask Integration**
+-------------------------------------------------------------------------
 This project demonstrates how to write, compile, and deploy a Solidity smart contract with MetaMask for interaction.
 
 **Prerequisites**
