@@ -2,30 +2,26 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract Lottery{
-    address public mnanager;
-    adress payable[] public players;
-        address payable  public winner;
+contract Lottery {
+    address public manager;
+    address payable[] public players;
+    address payable public winner;
 
-    constructor(){
-        mnanager=msg.sender;
-
+    constructor() {
+        manager = msg.sender;
     }
 
-    function participate() public payable{
-        require(msg.value==1 ether,"please pay 1 ether");
+    function participate() public payable {
+        require(msg.value == 1 ether, "Please pay 1 ether");
         players.push(payable(msg.sender));
     }
-    
-    function getBalance()  public view returns(uint){
-        require(manager==msg.sender,"You are not the manager ");
+
+    function getBalance() public view returns (uint) {
+        require(manager == msg.sender, "You are not the manager");
         return address(this).balance;
     }
 
-    function random() internal view returns(uint){
-        return uint(keccak256(abi.ecodePacked(block.difficulty, block.timestamp,block.length)));
-
-}
-
-
+    function random() public view returns (uint) {
+        return uint(keccak256(abi.encodePacked(block.prevrandao , block.timestamp, block.number)));
+    }
 }
