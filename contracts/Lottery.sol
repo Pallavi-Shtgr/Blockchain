@@ -16,5 +16,16 @@ contract Lottery{
         require(msg.value==1 ether,"please pay 1 ether");
         players.push(payable(msg.sender));
     }
+    
+    function getBalance()  public view returns(uint){
+        require(manager==msg.sender,"You are not the manager ");
+        return address(this).balance;
+    }
+
+    function random() internal view returns(uint){
+        return uint(keccak256(abi.ecodePacked(block.difficulty, block.timestamp,block.length)));
+
+}
+
 
 }
