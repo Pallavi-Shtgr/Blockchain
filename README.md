@@ -14,11 +14,14 @@ Truffle
 
 Ganache (optional, for local blockchain)
 
+
 ## Installation Steps
 
-## 1. Install Truffle
+### 1. Install Truffle
 
-npm install -g truffle
+- Run the following command to install Truffle globally:
+
+  [`npm install -g truffle`](#)
 
 ## MetaMask Setup
 
@@ -33,5 +36,6 @@ npm install -g truffle
 ### 3. Import Account
 
 - If you're using Ganache, import your account into MetaMask by using the private key provided by Ganache.
+ import your account into MetaMask by using the private key provided by Ganache.
 
 
