@@ -13,7 +13,6 @@ MetaMask browser extension
 Truffle
 
 Ganache (optional, for local blockchain)
-___________________________________________________________________
 
 ## Installation Steps
 
