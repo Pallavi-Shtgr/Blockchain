@@ -5,8 +5,11 @@ This project demonstrates how to write, compile, and deploy a Solidity smart con
 
 **Prerequisites**
 Ensure you have the following installed:
+
 Node.js (v12 or higher)
 
 MetaMask browser extension
+
 Truffle
+
 Ganache (optional, for local blockchain)
