@@ -51,9 +51,6 @@ Ganache (optional, for local blockchain)
 // Participant 3
 // 0x787...cabaB (98.999999999999902952 Ether) - participates with 1 Ether
 
-// In this case, one participant will win 3 Ether.
-// Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
-
 
 ![Screenshot 2024-09-22 185644](https://github.com/user-attachments/assets/93e12604-0bcd-4c8e-bc72-b10c04405bbf) 
 
@@ -73,21 +70,14 @@ Ganache (optional, for local blockchain)
 
  * Only the manager (the person who deployed the contract) can call the pickWinner() function.
    
- * Once the manager picks a winner, the 3 Ether will be randomly transferred to one of the participants.
+
 
  ![Screenshot 2024-09-22 190351](https://github.com/user-attachments/assets/62f53d35-4854-4a14-a8fc-2fb4a598b267)
+ 
 ![Screenshot 2024-09-22 190242](https://github.com/user-attachments/assets/6021ab1a-0384-49a4-9ad4-82f954330864)
 
-// The winner's balance will increase by 3 Ether, while the other participants' balances will remain unchanged.
+![Screenshot 2024-09-22 190351](https://github.com/user-attachments/assets/f7b43504-c4c9-4b5c-a860-a16d5166a595)
 
-// Example after winning:
-// Address 1: 98.999999999999868752 Ether
-
-// Address 2 (Winner): 101.999999999999859886 Ether
-
-// Address 3: 98.999999999999902952 Ether
-
-![Screenshot 2024-09-22 190557](https://github.com/user-attachments/assets/9ed737bb-ca3e-486b-b80f-036ce48cbb65)
 
 // The winner's balance will increase by 3 Ether, while the other participants' balances will remain unchanged.
 
@@ -102,10 +92,12 @@ Ganache (optional, for local blockchain)
 
 // You can verify the winner by calling the winner() function, which will return the address of the winning participant.
 
-![Screenshot 2024-09-22 190351](https://github.com/user-attachments/assets/f7b43504-c4c9-4b5c-a860-a16d5166a595)
 
 
+![Screenshot 2024-09-22 190557](https://github.com/user-attachments/assets/9ed737bb-ca3e-486b-b80f-036ce48cbb65)
 
 
+// In this case, one participant will win 3 Ether.
+// Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
 
 
