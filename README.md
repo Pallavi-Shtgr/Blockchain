@@ -82,10 +82,7 @@ Ganache (optional, for local blockchain)
 // The winner's balance will increase by 3 Ether, while the other participants' balances will remain unchanged.
 
 // Example after winning:
-// Address 1: 98.999999999999868752 Ether
-// Address 2 (Winner): 101.999999999999859886 Ether
-// Address 3: 98.999999999999902952 Ether
-
+// Address 1: 98.999999999999868752 Ether; Address 2 (Winner): 101.999999999999859886 Ether; Address 3: 98.999999999999902952 Ether
 
 ![Screenshot 2024-09-22 190449](https://github.com/user-attachments/assets/9b4e1970-951e-40e0-a961-0424e327dc96)
 
