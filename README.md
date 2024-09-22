@@ -37,8 +37,32 @@ Ganache (optional, for local blockchain)
 - If you're using Ganache, import your account into MetaMask by using the private key provided by Ganache.
  import your account into MetaMask by using the private key provided by Ganache.
 -------------------------------------------------------------------------------------------------------------------
-![Screenshot 2024-09-22 185757](https://github.com/user-attachments/assets/422805cc-4f2c-4150-9f00-3dabce44b875)
-![Screenshot 2024-09-22 185727](https://github.com/user-attachments/assets/54fd7868-0ae4-41a8-b6f6-68efa0a83a0b)
+// Participants sending Ether to the lottery contract
+
+// Manager Address
+// 0x5B3...eddC4 (99.99999999999240034 Ether)
+
+// Participant 1
+// 0xAb8...35cb2 (98.999999999999868752 Ether) - participates with 1 Ether
+
+// Participant 2
+// 0x4B2...C02db (98.999999999999859886 Ether) - participates with 1 Ether
+
+// Participant 3
+// 0x787...cabaB (98.999999999999902952 Ether) - participates with 1 Ether
+
+// In this case, one participant will win 3 Ether.
+// Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
+
+/**
+ * After all 3 participants have sent 1 Ether, the contract balance will be 3 Ether.
+ * You can check this by calling the getBalance() function.
+ */
+
+
+
 ![Screenshot 2024-09-22 185644](https://github.com/user-attachments/assets/93e12604-0bcd-4c8e-bc72-b10c04405bbf)
+![Screenshot 2024-09-22 185727](https://github.com/user-attachments/assets/54fd7868-0ae4-41a8-b6f6-68efa0a83a0b)
+![Screenshot 2024-09-22 185757](https://github.com/user-attachments/assets/422805cc-4f2c-4150-9f00-3dabce44b875)
 
 
