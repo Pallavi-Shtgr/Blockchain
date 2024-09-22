@@ -88,16 +88,15 @@ Ganache (optional, for local blockchain)
 
 
 ![Screenshot 2024-09-22 190449](https://github.com/user-attachments/assets/9b4e1970-951e-40e0-a961-0424e327dc96)
-![Screenshot 2024-09-22 190435](https://github.com/user-attachments/assets/47e186c6-f0df-4a1d-b5e7-434861caf41a)
 
 // You can verify the winner by calling the winner() function, which will return the address of the winning participant.
 
+![Screenshot 2024-09-22 190435](https://github.com/user-attachments/assets/47e186c6-f0df-4a1d-b5e7-434861caf41a)
 
 
 ![Screenshot 2024-09-22 190557](https://github.com/user-attachments/assets/9ed737bb-ca3e-486b-b80f-036ce48cbb65)
 
 
-// In this case, one participant will win 3 Ether.
-// Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
+// In this case, one participant will win 3 Ether. Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
 
 
