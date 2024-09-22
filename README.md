@@ -1,4 +1,4 @@
-![Screenshot 2024-09-22 190242](https://github.com/user-attachments/assets/01dee197-2dfd-4bef-bab9-34aa3dc1a267)**Solidity Smart Contract with MetaMask Integration**
+**Solidity Smart Contract with MetaMask Integration**
 -------------------------------------------------------------------------
 This project demonstrates how to write, compile, and deploy a Solidity smart contract with MetaMask for interaction.
 
