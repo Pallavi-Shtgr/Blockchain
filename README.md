@@ -54,15 +54,20 @@ Ganache (optional, for local blockchain)
 // In this case, one participant will win 3 Ether.
 // Winner is selected as Address 2 (0x4B2...C02db) and will receive the total of 3 Ether.
 
+
+![Screenshot 2024-09-22 185644](https://github.com/user-attachments/assets/93e12604-0bcd-4c8e-bc72-b10c04405bbf) 
+
+![Screenshot 2024-09-22 185727](https://github.com/user-attachments/assets/54fd7868-0ae4-41a8-b6f6-68efa0a83a0b) 
+
+
 /**
  * After all 3 participants have sent 1 Ether, the contract balance will be 3 Ether.
  * You can check this by calling the getBalance() function.
+
  */
+![Screenshot 2024-09-22 185757](https://github.com/user-attachments/assets/422805cc-4f2c-4150-9f00-3dabce44b875) 
+![Screenshot 2024-09-22 190110](https://github.com/user-attachments/assets/a35f7654-4030-4a54-85dd-184466d10c40)
+![Screenshot 2024-09-22 185920](https://github.com/user-attachments/assets/069f1a71-c1f6-4a31-9b0a-6f8cf85e6d63)
 
-
-
-![Screenshot 2024-09-22 185644](https://github.com/user-attachments/assets/93e12604-0bcd-4c8e-bc72-b10c04405bbf)
-![Screenshot 2024-09-22 185727](https://github.com/user-attachments/assets/54fd7868-0ae4-41a8-b6f6-68efa0a83a0b)
-![Screenshot 2024-09-22 185757](https://github.com/user-attachments/assets/422805cc-4f2c-4150-9f00-3dabce44b875)
 
 
