@@ -36,5 +36,12 @@ Ganache (optional, for local blockchain)
 
 - If you're using Ganache, import your account into MetaMask by using the private key provided by Ganache.
  import your account into MetaMask by using the private key provided by Ganache.
+-------------------------------------------------------------------------------------------------------------------
+![Screenshot 2024-09-22 182709](https://github.com/user-attachments/assets/776c80e0-55bf-47ed-9dec-f7932eec21c4)
+![Screenshot 2024-09-22 182643](https://github.com/user-attachments/assets/525d95d9-1398-4334-a39f-6468e8595bae)
+![Screenshot 2024-09-20 225004](https://github.com/user-attachments/assets/424cf8a7-3cf5-4b75-bf6d-cea0b7f0a377)
+![Screenshot 2024-09-22 183019](https://github.com/user-attachments/assets/57265616-8933-406a-8551-85275a36dc0c)
+![Screenshot 2024-09-22 182810](https://github.com/user-attachments/assets/be593fb9-e673-4b10-a354-e09bc9342905)
+
 
 
