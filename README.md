@@ -1,4 +1,4 @@
-**Solidity Smart Contract with MetaMask Integration**
+![Screenshot 2024-09-22 190242](https://github.com/user-attachments/assets/01dee197-2dfd-4bef-bab9-34aa3dc1a267)**Solidity Smart Contract with MetaMask Integration**
 -------------------------------------------------------------------------
 This project demonstrates how to write, compile, and deploy a Solidity smart contract with MetaMask for interaction.
 
@@ -68,6 +68,16 @@ Ganache (optional, for local blockchain)
 ![Screenshot 2024-09-22 185757](https://github.com/user-attachments/assets/422805cc-4f2c-4150-9f00-3dabce44b875) 
 ![Screenshot 2024-09-22 185920](https://github.com/user-attachments/assets/069f1a71-c1f6-4a31-9b0a-6f8cf85e6d63)
 ![Screenshot 2024-09-22 190110](https://github.com/user-attachments/assets/a35f7654-4030-4a54-85dd-184466d10c40)
+
+
+
+ * Only the manager (the person who deployed the contract) can call the pickWinner() function.
+ * Once the manager picks a winner, the 3 Ether will be randomly transferred to one of the participants.
+
+ ![Screenshot 2024-09-22 190351](https://github.com/user-attachments/assets/62f53d35-4854-4a14-a8fc-2fb4a598b267)
+![Screenshot 2024-09-22 190242](https://github.com/user-attachments/assets/6021ab1a-0384-49a4-9ad4-82f954330864)
+
+
 
 
 
